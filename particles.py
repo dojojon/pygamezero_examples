@@ -1,6 +1,5 @@
 import random
 
-
 WIDTH = 800
 HEIGHT = 400
 GRAVITY = .025
@@ -9,7 +8,6 @@ FREQUENCY = .15
 emit_time = 0
 
 particles = []
-
 
 def update(elapsed):
     global particles, emit_time, FREQUENCY, GRAVITY
